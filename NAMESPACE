@@ -1,0 +1,18 @@
+useDynLib(esotericR)
+
+export(
+
+       push,
+       pop,
+       shift,
+       unshift,
+
+       new_stack,
+       new_betterstack
+
+      )
+
+S3method(push, stack)
+S3method(pop, stack)
+S3method(shift, stack)
+S3method(unshift, stack)
